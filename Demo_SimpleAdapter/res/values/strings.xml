@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Demos SimpleAdapter</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="search">Buscar</string>
+    <string name="open_activity">Abrir otra actividad</string>
+    <string name="title_activity_show_search_query">ShowSearchQuery</string>
+     <string name="title_activity_email_list">EmailListActivity</string>
+     <string name="btn_list">Listado</string>
+      <string name="btn_add">Agregar</string>
+     
+     <string name="txt_checkbox">Te Gusta android?</string>
+     <string name="txt_radio_0">Opcion A</string>
+     <string name="txt_radio_1">Opcion B</string>
+     <string name="txt_radio_2">Opcion C</string>
+     
+
+</resources>
