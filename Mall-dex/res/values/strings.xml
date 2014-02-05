@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mall-dex</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display__store">Display_Store</string>
+    <string name="call">Llamar</string>
+    <string name="Address">Direccion: </string>
+    <string name="Phone">Telefono: </string>
+    <string name="Horario">Horarios: </string>
+    <string name="StoreName"></string>
+    <string name="Email">Email: </string>
+    <string name="Website">Website: </string>
+    <string name="title_activity_imagen">ImagenActivity</string>
+
+</resources>

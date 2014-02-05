@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Display_Store" >
+
+    <TextView
+        android:id="@+id/text_StoreName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/StoreName"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_StoreName"
+        android:layout_marginTop="80dp" >
+
+        <TextView
+            android:id="@+id/text_Address"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:text="@string/Address" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1"
+        android:text="@string/call" />
+
+    <TextView
+        android:id="@+id/text_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:text="@string/Phone" />
+
+    <TextView
+        android:id="@+id/text_sched"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_phone"
+        android:text="@string/Horario" />
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_sched"
+        android:text="@string/Email" />
+
+    <TextView
+        android:id="@+id/text_website"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_below="@+id/text_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/Website" />
+
+    <ImageButton
+        android:id="@+id/btn_imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_menu_gallery" />
+
+</RelativeLayout>
